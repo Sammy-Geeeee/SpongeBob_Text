@@ -1,6 +1,11 @@
 # SpongeBob Text Generator
 
-# program will turn input text in the sPOngeBoB like text as the memes are.
+""""
+This program will turn input text in the sPOngeBoB like text as the memes are
+
+The purpose of this program was my own entertainment...
+And it was also the first standalone program of any sort I made outside of a tutorial
+"""
 
 import tkinter as tk
 from frameMain import *

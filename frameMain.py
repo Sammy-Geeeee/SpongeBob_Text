@@ -22,6 +22,8 @@ class FrameMain(tk.Frame):
         # And their positioning
         self.text_words.grid(row=0, column=0, padx=[2*pad_ext, 0], pady=2*pad_ext)
         self.frame_buttons.grid(row=0, column=1, padx=pad_ext, pady=pad_ext, sticky='ne')
+        # Configurations just for this one
+        self.text_words.config(wrap=tk.WORD)
         
 
         # Widgets in the buttons frame
